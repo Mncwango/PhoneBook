@@ -1,0 +1,72 @@
+<div class="container" fxLayout="row" fxLayoutAlign="center none">
+
+  <div fxFlex="95%">
+    <div class="container" fxLayout="row" fxLayoutAlign="center none">
+
+      <mat-toolbar color="primary">
+        <span>Phone Book</span>
+      </mat-toolbar>
+
+    </div>
+
+    <div class="container" fxLayout="row" fxLayoutAlign="center none">
+      <div fxLayout="column" fxLayoutAlign="center">
+        <h5 style="text-align: center; margin-bottom: 1%;">Phone book list</h5>
+      </div>
+      <mat-accordion  color="primary" multi>
+        <mat-expansion-panel *ngFor="let phone of phoneBook">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              {{phone.name}}
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <table mat-table [dataSource]="phone.entries" class="mat-elevation-z8">
+            <ng-container matColumnDef="name">
+              <th mat-header-cell *matHeaderCellDef> Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+            </ng-container>
+            <ng-container matColumnDef="phoneNumber">
+              <th mat-header-cell *matHeaderCellDef> Phone Number </th>
+              <td mat-cell *matCellDef="let element"> {{element.phoneNumber}} </td>
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr> 
+          </table>
+          <mat-action-row>
+            <button mat-button color="primary" (click)="nextStep()">Add New</button>
+          </mat-action-row>
+        </mat-expansion-panel>
+      </mat-accordion>
+      <button mat-fab color="primary" class="fab-bottom-right" aria-label="add new phoneBook">
+        <mat-icon>add</mat-icon>
+      </button>
+    
+    </div>
+  </div>
+</div>
+<!-- <div class="container" fxLayout="row" fxLayoutAlign="center">
+  <div class="text-center no-records animate">
+<mat-accordion  color="primary" multi>
+  <mat-expansion-panel *ngFor="let phone of phoneBook">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{phone.name}}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <table mat-table [dataSource]="phone.entries" class="mat-elevation-z8">
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+      </ng-container>
+      <ng-container matColumnDef="phoneNumber">
+        <th mat-header-cell *matHeaderCellDef> Phone Number </th>
+        <td mat-cell *matCellDef="let element"> {{element.phoneNumber}} </td>
+      </ng-container>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr> 
+    </table>
+  </mat-expansion-panel>
+</mat-accordion>
+</div>
+</div> -->
+

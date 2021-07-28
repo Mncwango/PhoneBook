@@ -1,0 +1,35 @@
+<mat-dialog-content [formGroup]="form">
+  <mat-form-field *ngIf="!phoneBookId">
+
+    <input matInput
+            placeholder="Phone Name"
+           formControlName="phoneBookName">
+
+</mat-form-field>
+
+<mat-form-field>
+
+  <input matInput
+          placeholder="Entry Name"
+         formControlName="entryName">
+
+</mat-form-field>
+<mat-form-field>
+
+  <input matInput
+          placeholder="Phone Number"
+         formControlName="entryPhoneNumber">
+
+</mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button class="mat-raised-button"
+  (click)="close()">
+Close
+</button>
+
+<button class="mat-raised-button mat-primary"
+  (click)="save()">
+Save
+</button>
+</mat-dialog-actions>

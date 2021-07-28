@@ -1,0 +1,277 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Webapi\\Phonebook.Webapi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Data\\Phonebook.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Data\\Phonebook.Data.csproj",
+        "projectName": "Phonebook.Data",
+        "projectPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Data\\Phonebook.Data.csproj",
+        "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\celimpilom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lsproperty.pkgs.visualstudio.com/_packaging/Lightstone.Common/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Entities\\Phonebook.Entities.csproj": {
+                "projectPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Entities\\Phonebook.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Entities\\Phonebook.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Entities\\Phonebook.Entities.csproj",
+        "projectName": "Phonebook.Entities",
+        "projectPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Entities\\Phonebook.Entities.csproj",
+        "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\celimpilom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lsproperty.pkgs.visualstudio.com/_packaging/Lightstone.Common/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Services\\Phonebook.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Services\\Phonebook.Services.csproj",
+        "projectName": "Phonebook.Services",
+        "projectPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Services\\Phonebook.Services.csproj",
+        "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\celimpilom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lsproperty.pkgs.visualstudio.com/_packaging/Lightstone.Common/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Data\\Phonebook.Data.csproj": {
+                "projectPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Data\\Phonebook.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Webapi\\Phonebook.Webapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Webapi\\Phonebook.Webapi.csproj",
+        "projectName": "Phonebook.Webapi",
+        "projectPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Webapi\\Phonebook.Webapi.csproj",
+        "packagesPath": "C:\\Users\\celimpilom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Webapi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\celimpilom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lsproperty.pkgs.visualstudio.com/_packaging/Lightstone.Common/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Services\\Phonebook.Services.csproj": {
+                "projectPath": "C:\\Users\\celimpilom\\Documents\\Work\\Phonebook.Services\\Phonebook.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
