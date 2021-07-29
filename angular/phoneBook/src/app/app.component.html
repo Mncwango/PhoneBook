@@ -33,11 +33,11 @@
             <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr> 
           </table>
           <mat-action-row>
-            <button mat-button color="primary" (click)="nextStep()">Add New</button>
+            <button mat-button color="primary" (click)="Create(phone.id)">Add New</button>
           </mat-action-row>
         </mat-expansion-panel>
       </mat-accordion>
-      <button mat-fab color="primary" class="fab-bottom-right" aria-label="add new phoneBook">
+      <button mat-fab color="primary" (click)="Create()" class="fab-bottom-right" aria-label="add new phoneBook">
         <mat-icon>add</mat-icon>
       </button>
     

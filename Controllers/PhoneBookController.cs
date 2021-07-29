@@ -52,5 +52,12 @@ namespace Phonebook.Webapi.Controllers
             return _mapper.Map<List<PhoneBookModel>>(_phoneBookService.GetAll().ToList());
         }
 
+        [HttpGet]
+        [Route("Search")]
+        public IEnumerable<PhoneBookModel> Search(string query)
+        {
+            return _mapper.Map<List<PhoneBookModel>>(_phoneBookService.SearchByName(query).ToList());
+        }
+
     }
 }

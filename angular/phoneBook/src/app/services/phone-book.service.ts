@@ -24,7 +24,7 @@ export class PhoneBookService {
   }
 
   public addEntry(model: EntryModel): Observable<number>{
-    return this.httpClient.post<number>(`${this.baseUrl}/api/PhoneBook/GetAll`,model,{
+    return this.httpClient.post<number>(`${this.baseUrl}/api/PhoneBook/AddEntry`,model,{
       headers: {
           'Content-Type': 'application/json'
       }
@@ -32,7 +32,7 @@ export class PhoneBookService {
   }
 
   public AddPhoneBookWithEntry(model:phoneBookModel){
-    return this.httpClient.post<number>(`${this.baseUrl}/api/PhoneBook/GetAll`,model,{
+    return this.httpClient.post<number>(`${this.baseUrl}/api/PhoneBook/CreatePhoneBookEntry`,model,{
       headers: {
           'Content-Type': 'application/json'
       }
